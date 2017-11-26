@@ -32,7 +32,7 @@ services:
       - "443:443"
     volumes:
       - /etc/letsencrypt:/etc/letsencrypt
-      - ~/nginx.conf:/etc/nginx/conf.d/default.conf
+      - ~/rancher-server/nginx.conf:/etc/nginx/conf.d/default.conf
     links:
       - rancher-server
 
