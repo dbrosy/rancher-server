@@ -29,7 +29,7 @@ site certificate created using certbot
 Steps:
 
 ```
-git clone repository
+git clone https://github.com/dbrosy/rancher-server.git
 ```
 
 ```
