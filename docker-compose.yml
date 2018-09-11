@@ -1,7 +1,7 @@
 version: '2'
 services:
   rancher-db:
-    image: mariadb:latest
+    image: mariadb:10.2
     container_name: rancher-db
     restart: unless-stopped
     expose:
